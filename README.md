@@ -13,6 +13,7 @@
 ## ***Resources***
 
   * Data Source: iris.csv, shopping_data.csv, crypto_data.csv
+  * Image Source: https://ta5ls4egdttsq4yt355nrif8-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/cryptocurrency-accepted.jpg
   * Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
   
 ## ***Challenge Overview***
