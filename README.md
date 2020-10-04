@@ -53,7 +53,7 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
 
    * After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
 
-   ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/KMeans_algorithm.png)
 
    * Then I created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm,ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
 
@@ -69,7 +69,7 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
     
    * Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins and used the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
    
-   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/scatter_clustered.png)
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/scatter_cluster.png)
    
    For a clearer view of the y-axis i increased the height to 3000 which gives it a reasonable view
    
