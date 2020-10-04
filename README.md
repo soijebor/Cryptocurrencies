@@ -1,5 +1,7 @@
 # Cryptocurrencies
 
+![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/cryptocurrency-accepted.jpg)
+
 ## ***Project Overview***
 
   * Describe the differences between supervised and unsupervised learning, including real-world examples of each.
