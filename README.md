@@ -67,6 +67,6 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    ![]()
    
-   For a clearer viw of the y axis i increased the height to 3000 which gives it a reasonable view
+   For a clearer view of the y axis i increased the height to 3000 which gives it a reasonable view
    
    ![]()
