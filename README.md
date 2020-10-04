@@ -48,7 +48,7 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
 
-   ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/elbow_curve.png)
    From the chart we can tell the best value for K is 4
 
    * After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
@@ -61,15 +61,15 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
  
    * Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. And included the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
    
-   ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/newplot.png)
    
    * Used hvplot.table to create a data table with all the current tradable cryptocurrencies, which has the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
     
-    ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/clustered_df_table.png)
     
    * Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins and used the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
    
-   ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/scatter_clustered.png)
    
    For a clearer view of the y-axis i increased the height to 3000 which gives it a reasonable view
    
