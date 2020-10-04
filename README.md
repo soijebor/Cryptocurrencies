@@ -28,7 +28,7 @@ A senior manager for the Advisory Services Team at Accountability Accounting, on
 
 1.) ***Data Preprocessing***
 
- I started by loading the data into a panda Dataframe, then i followed the following data preprocessing tasks:
+ I started by loading the data into a panda Dataframe, then I followed the following data preprocessing tasks:
 
    * Remove all cryptocurrencies that aren’t trading.
    * Remove all cryptocurrencies that don’t have an algorithm defined.
@@ -73,6 +73,6 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/scatter_cluster.png)
    
-   For a clearer view of the y-axis i increased the height to 3000 which gives it a reasonable view
+   For a clearer view of the y-axis I increased the height to 3000 which gives it a reasonable view
    
    ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/Scatter_plot.png)
