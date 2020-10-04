@@ -42,17 +42,17 @@ I started by loading the data into a panda Dataframe, then i followed the follow
 * ***Clustering Cryptocurrencies Using K-means***
  
 Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data. I completed the following tasks:
-  * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
-  
-  ![]()
-  From the chart we can tell the best value for K is 4
-  
-  *  After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
-  
-  ![]()
-  
-  * Then I created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm,ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
-  
+   * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
+
+   ![]()
+   From the chart we can tell the best value for K is 4
+
+   *  After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
+
+   ![]()
+
+   * Then I created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm,ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
+
  * ***Visualizing Results***
  
    * Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. And included the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
