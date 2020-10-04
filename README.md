@@ -26,7 +26,7 @@ A senior manager for the Advisory Services Team at Accountability Accounting, on
 
 * ***Data Preprocessing***
 
-I started by loading the data into a panda Dataframe, then i followed the following data preprocessing tasks:
+ I started by loading the data into a panda Dataframe, then i followed the following data preprocessing tasks:
 
    * Remove all cryptocurrencies that aren’t trading.
    * Remove all cryptocurrencies that don’t have an algorithm defined.
@@ -39,17 +39,19 @@ I started by loading the data into a panda Dataframe, then i followed the follow
    * Use the StandardScaler from sklearn to standardize all of the data from the X DataFrame. 
 
 * ***Reducing Data Dimensions Using PCA***
- Reduced the dimensions of the X DataFrame down to three principal components using the PCA algorithm from sklearn. Then, I created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. I used the crypto_df.index as the index for this new DataFrame.
+
+Reduced the dimensions of the X DataFrame down to three principal components using the PCA algorithm from sklearn. Then, I created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. I used the crypto_df.index as the index for this new DataFrame.
 
 * ***Clustering Cryptocurrencies Using K-means***
  
 Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data. I completed the following tasks:
-  * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
+   
+   * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
 
    ![]()
    From the chart we can tell the best value for K is 4
 
-  * After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
+   * After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
 
    ![]()
 
