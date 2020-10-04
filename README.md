@@ -25,16 +25,18 @@ A senior manager for the Advisory Services Team at Accountability Accounting, on
 ## ***Challenge Summary***
 
 * ***Data Preprocessing***
+
 I started by loading the data into a panda Dataframe, then i followed the following data preprocessing tasks:
-  * Remove all cryptocurrencies that aren’t trading.
-  * Remove all cryptocurrencies that don’t have an algorithm defined.
-  * Remove the IsTrading column.
-  * Remove all cryptocurrencies with at least one null value.
-  * Remove all cryptocurrencies without coins mined.
-  * Store the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame.
-  * Remove the CoinName column.
-  * Create dummies variables for all of the text features, and store the resulting data on a DataFrame named X.
-  * Use the StandardScaler from sklearn to standardize all of the data from the X DataFrame. 
+
+   * Remove all cryptocurrencies that aren’t trading.
+   * Remove all cryptocurrencies that don’t have an algorithm defined.
+   * Remove the IsTrading column.
+   * Remove all cryptocurrencies with at least one null value.
+   * Remove all cryptocurrencies without coins mined.
+   * Store the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame.
+   * Remove the CoinName column.
+   * Create dummies variables for all of the text features, and store the resulting data on a DataFrame named X.
+   * Use the StandardScaler from sklearn to standardize all of the data from the X DataFrame. 
 
 * ***Reducing Data Dimensions Using PCA***
  Reduced the dimensions of the X DataFrame down to three principal components using the PCA algorithm from sklearn. Then, I created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. I used the crypto_df.index as the index for this new DataFrame.
@@ -42,12 +44,12 @@ I started by loading the data into a panda Dataframe, then i followed the follow
 * ***Clustering Cryptocurrencies Using K-means***
  
 Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data. I completed the following tasks:
-   * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
+  * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
 
    ![]()
    From the chart we can tell the best value for K is 4
 
-   *  After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
+  * After I defined the best value for K, I used the pcs_df dataframe to run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data as shown below
 
    ![]()
 
