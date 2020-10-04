@@ -73,6 +73,6 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/scatter_cluster.png)
    
-   For a clearer view of the y-axis I increased the height to 3000 which gives it a reasonable view
+   For a clearer view, I used log for x and y axes and set a limit for y axis because range encountered value less than or equal to zero.
    
    ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/Scatter_plot.png)
