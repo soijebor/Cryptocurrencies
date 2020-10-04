@@ -65,7 +65,7 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    * Used hvplot.table to create a data table with all the current tradable cryptocurrencies, which has the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
     
-   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/clustered_df_table.png)
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/hvplot_table.png)
     
    * Created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins and used the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
    
@@ -73,4 +73,4 @@ Using the KMeans algorithm from sklearn to cluster the cryptocurrencies using th
    
    For a clearer view of the y-axis i increased the height to 3000 which gives it a reasonable view
    
-   ![]()
+   ![](https://github.com/soijebor/Cryptocurrencies/blob/master/Charts/Scatter_plot.png)
